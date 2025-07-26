@@ -48,7 +48,7 @@ function BlogHome({ data, addPost }) {
         <div className="header-content">
           <h1>Minimalist Blog</h1>
           <p style={{ fontSize: '1rem', marginTop: '1rem', opacity: 0.8 }}>
-            Curated ideas, visual stories, and bold insights—ready for your next great read.
+            Curated ideas, visual stories, and bold insights; ready for your next great read.
           </p>
         </div>
       </header>
