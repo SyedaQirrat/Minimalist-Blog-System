@@ -6,31 +6,39 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-content">
           <div className="footer-section">
-            <h3>About</h3>
+            <h3>Minimalist Blog</h3>
             <p>
-              A minimalist blog platform focused on clean design and great content. 
-              Built with React and inspired by modern web design principles.
+              A home for intentional thought. Not built for clicks. Not built for outrage.
             </p>
           </div>
           
           <div className="footer-section">
-            <h3>Features</h3>
-            <p>
-              • Clean, minimalist design<br/>
-              • Responsive layout<br/>
-              • Category filtering<br/>
-              • Tag-based navigation<br/>
-              • Image support
-            </p>
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="/">Explore</a></li>
+              <li><a href="/manage-post">Write</a></li>
+            </ul>
           </div>
           
           <div className="footer-section">
-            <h3>Connect</h3>    
+            <h3>Account</h3>
+            <ul>
+              <li><a href="/">Login</a></li>
+              <li><a href="/">Sign Up</a></li>
+              <li><a href="/">Dashboard</a></li>
+            </ul>
           </div>
         </div>
         
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Minimalist Blog. All rights reserved.</p>
+          <div className="footer-bottom-left">
+            <p>&copy; {currentYear} Minimalist Blog. All rights reserved.</p>
+          </div>
+          <div className="footer-bottom-right">
+            <a href="/">Privacy</a>
+            <a href="/">Terms</a>
+          </div>
         </div>
       </div>
     </footer>
