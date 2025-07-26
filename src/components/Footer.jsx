@@ -21,14 +21,7 @@ function Footer() {
             </ul>
           </div>
           
-          <div className="footer-section">
-            <h3>Account</h3>
-            <ul>
-              <li><a href="/">Login</a></li>
-              <li><a href="/">Sign Up</a></li>
-              <li><a href="/">Dashboard</a></li>
-            </ul>
-          </div>
+          
         </div>
         
         <div className="footer-bottom">
