@@ -31,10 +31,11 @@
         "id": "4",
         "title": "The Future of Web Development",
         "content": "Web development is evolving rapidly with new technologies like WebAssembly, Edge Computing, and AI-powered tools reshaping how we build for the web.\n\nWebAssembly (WASM) is revolutionizing web performance by allowing code written in languages like C++, Rust, and Go to run in the browser at near-native speeds. This opens up possibilities for running complex applications, games, and computational tasks directly in the browser.\n\nEdge computing is bringing computation closer to users by processing data at the edge of the network rather than in centralized data centers. This reduces latency and improves user experience, especially for global applications.\n\nAI-powered development tools are becoming increasingly sophisticated. From code completion and bug detection to automated testing and deployment, AI is helping developers write better code faster. These tools are not replacing developers but augmenting their capabilities.\n\nThe rise of the Jamstack architecture is changing how we think about web applications. By decoupling the frontend from the backend and leveraging CDNs and APIs, developers can build faster, more secure, and more scalable applications.",
-        "image": "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=400&fit=crop&crop=center",
+        "image": "https://unsplash.com/photos/black-flat-screen-computer-monitor-eYpcLDXHVb0",
         "authorId": "2",
         "categoryId": "tech",
-        "tags": ["web-development", "future", "technology"]
+        "tags": ["web-development", "future", "technology"],
+        "preview": ""
       },
       {
         "id": "5",

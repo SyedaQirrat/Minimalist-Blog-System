@@ -17,7 +17,6 @@ function Footer() {
             <ul>
               <li><a href="/">Home</a></li>
               <li><a href="/">Explore</a></li>
-              <li><a href="/manage-post">Write</a></li>
             </ul>
           </div>
         </div>
