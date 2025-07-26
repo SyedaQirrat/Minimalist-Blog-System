@@ -71,25 +71,25 @@ function AppWrapper() {
     <>
       <Navbar />
       <main>
-        <Routes>
-          <Route
-            path="/"
-            element={<BlogHome data={data} addPost={addPost} updatePost={updatePost} />}
-          />
-          <Route
-            path="/post/:id"
-            element={<PostDetail data={data} />}
-          />
-          <Route
-            path="/manage-post"
-            element={<CreateEditPost {...sharedProps} />}
-          />
-          <Route
-            path="/manage-post/:postId"
-            element={<CreateEditPost {...sharedProps} />}
-          />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+    <Routes>
+      <Route
+        path="/"
+        element={<BlogHome data={data} addPost={addPost} updatePost={updatePost} />}
+      />
+      <Route
+        path="/post/:id"
+        element={<PostDetail data={data} />}
+      />
+      <Route
+        path="/manage-post"
+        element={<CreateEditPost {...sharedProps} />}
+      />
+      <Route
+        path="/manage-post/:postId"
+        element={<CreateEditPost {...sharedProps} />}
+      />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
       </main>
       <Footer />
     </>

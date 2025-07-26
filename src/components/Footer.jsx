@@ -12,7 +12,7 @@ function Footer() {
             </p>
           </div>
           
-          <div className="footer-section">
+          <div className="footer-section">  
             <h3>Navigation</h3>
             <ul>
               <li><a href="/">Home</a></li>
@@ -20,8 +20,6 @@ function Footer() {
               <li><a href="/manage-post">Write</a></li>
             </ul>
           </div>
-          
-          
         </div>
         
         <div className="footer-bottom">
