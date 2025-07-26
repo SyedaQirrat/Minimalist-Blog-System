@@ -4,7 +4,7 @@ A clean, content-focused blog application built with **React**, powered by **Vit
 
 🌐 **Live Demo**: [https://minimalist-blog-system.vercel.app](https://minimalist-blog-system.vercel.app)
 
-![Minimalist Blog Preview](https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?w=800&h=400&fit=crop&crop=center)
+![Minimalist Blog Screenshot](./src/screenshot.png)
 
 ---
 
